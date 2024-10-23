@@ -1,0 +1,56 @@
+
+  .text-center {
+    text-transform: none;
+  }
+
+  .title-portfolio {
+    color: var(--color-secundario);
+    font-weight: bold;
+    margin-block: 2rem;
+  }
+
+  .portfolio-item {
+    flex-basis: 400px;
+    background-color: var(--color-primario);
+    color: white;
+    border-radius: 1rem;    
+    padding: 1rem;
+    height: 100%;
+  }
+  
+  .portfolio-item img {
+    margin-bottom: 1rem;
+  }
+  
+  .custom-btn {
+    background-color: var(--color-secundario);
+    color: white;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    box-shadow: 4px 4px;
+    transition: background-color 0.2s ease-in-out;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .custom-btn:hover {
+    background-color: var(--color-secundario-hover);
+  }
+  
+  .disabled-btn {
+    border: none;
+    cursor: not-allowed;
+    filter: grayscale(1);
+  }
+  
+  .tech-logo {
+    max-height: 200px;
+  }
+  
+  @media (max-width: 768px) {
+    .portfolio-item {
+      max-width: 100%;
+    }
+  }
+  
+  
