@@ -77,6 +77,10 @@
   text-decoration: none;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .avances-container p {
   font-size: 16px;
 }
