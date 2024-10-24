@@ -102,4 +102,9 @@
   .portfolio-item {
     max-width: 100%;
   }
+
+  .avances-container {
+    width: 100%;
+    padding: 20px;
+  }
 }
